@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mini survey perokok di bootcamp Koda batch 3">
+    <meta name="keyword" content="perokok, bootcamp, koda">
+    <link rel="icon" href="https://framerusercontent.com/assets/KTjVObXrXXMTXt2qmiQXcHxjrjY.png" sizes="16x16">
+    <title>Form Survey</title>
+</head>
+<body>
+    <header>
+        <nav>  
+            <a href="index.html"> FORM </a> -- <a href=""> TABEL LIST </a>
+        </nav>
+
+        <h1>FORM SURVEY PEROKOK KODA BATCH 3</h1>
+    </header>
+    <main>
+        <form>
+            <!-- label -->
+            <div>
+                <!-- Nama  -->
+                <label for="nama">Nama : </label>
+                <input type="text" name="nama" id="nama">
+            </div>
+            <div>
+                <!-- umurr -->
+                <label for="umur"> Umur : </label>
+                <input type="date" name="umur" id="umur">
+            </div>
+            <div>
+                <!-- jenis kelamin -->
+                <label> jenis Kelamin</label> <br>
+                <input type="radio" name="gender" id="1" value="L"> <label for="1"> laki-laki</label>
+                <input type="radio" name="gender" id="p" value="P"> <label for="p"> perempuan</label>
+            </div>
+            <div>
+                <!-- dropdown buton seorang perokok? -->
+                <label for="perokok"> Apakah anda seorang perokok? </label><br>
+                <select name="perokok" id="perokok">
+                    <option value="" disabled selected></option>
+                    <option value="ya">ya</option>
+                    <option value="tidak">tidak </option>
+                </select>
+            </div>
+            <div>
+                <!-- brand rokok -->
+                <label for="brandro"> Brand rokok yang sering dibeli?</label><br>
+                <input type="checkbox" name="brandro" id="magnum" value="magnum"> <label for="magnum"> magnum </label>
+                <input type="checkbox" name="brandro" id="camel" value="camel"> <label for="camel"> camel </label>
+                <input type="checkbox" name="brandro" id="garam" value="garam"> <label for="garam"> Gudang Garam </label>
+                <input type="checkbox" name="brandro" id="keretek" value="keretek"> <label for="keretek"> keretek </label>
+                <input type="checkbox" name="brandro" id="surya" value="surya"> <label for="surya"> surya </label>
+                <input type="checkbox" name="brandro" id="djarum" value="djarum"> <label for="djarum"> djarum</label>
+                <input type="checkbox" name="brandro" id="umild" value="umild"> <label for="umild"> U mild</label>
+                <input type="checkbox" name="brandro" id="76" value="76"> <label for="76"> 76 </label>
+            </div>
+            <div>
+                <!-- submit -->
+                 <button type="submit">Submit</button>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>
